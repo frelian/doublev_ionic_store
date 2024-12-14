@@ -1,0 +1,7 @@
+{
+  "name": "doublev ionic store",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
