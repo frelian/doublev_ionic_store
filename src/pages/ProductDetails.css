@@ -1,0 +1,16 @@
+@media (min-width: 768px) {
+    .product-details-card {
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+}
+
+@media (max-width: 767px) {
+    .product-description {
+        line-height: 1.9;
+        color: #5e5d5d;
+    }
+}
+
+.product-title {
+    margin: 10px 20px 0 20px;
+}

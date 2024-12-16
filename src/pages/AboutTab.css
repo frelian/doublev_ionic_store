@@ -1,0 +1,47 @@
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 20px;
+}
+
+.centered-card {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Desktop */
+@media (min-width: 768px) {
+    .about-container {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .centered-card {
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto 20px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    .about-container {
+        width: 100%;
+    }
+
+    .centered-card {
+        width: 100%;
+    }
+}

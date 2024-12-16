@@ -1,0 +1,67 @@
+.controls-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    padding: 10px;
+}
+
+.controls-container .search-input {
+    width: 100%;
+    font-size: 1rem;
+}
+
+.sort-container {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.sort-container ion-label {
+    font-size: 1rem;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.sort-container ion-select {
+    flex: 1;
+    max-width: 200px;
+}
+
+.sort-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.swiper-pagination-bullet {
+    background: #ff5722;
+}
+
+.swiper-pagination {
+    bottom: -10px;
+}
+
+/*-----------------*/
+
+.product-slider-container {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+/* Indicadores del slider */
+.product-slider-container .swiper-pagination {
+    bottom: 0;
+}
+
+.product-slider-container .swiper-pagination-bullet {
+    background: var(--ion-color-primary);
+    width: 6px;
+    height: 6px;
+}
+
+.product-slider-container .swiper-pagination-bullet-active {
+    background: var(--ion-color-primary);
+}
