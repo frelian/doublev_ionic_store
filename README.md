@@ -20,3 +20,4 @@ Ejecutar las pruebas unitarias
 * Productos deseados
 * Lazy loading
 * Se crearon algunos test unitarios
+* Se agrega capacitor y se crea el ejecutable .apk

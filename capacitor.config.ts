@@ -1,8 +1,8 @@
 import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
-  appName: 'doublev ionic store',
+  appId: 'com.frelian.app.dvp.store',
+  appName: 'doublev-ionic-store',
   webDir: 'dist'
 };
 
